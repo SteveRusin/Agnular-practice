@@ -1,0 +1,14 @@
+.wrapper {
+    width: 30vw;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid red;
+    font-size: 2em;
+
+    .name {
+        margin: 10px auto;
+        span {
+            margin: 10px;
+        }
+    }
+}

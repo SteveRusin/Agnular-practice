@@ -1,0 +1,12 @@
+<div class="wrapper">
+<img src="{{ url }}" alt="">
+<div class="name" [hidden]='!hidden'><span>{{ name }}</span><span>{{ surname }}</span></div>
+<div>{{ age }}</div>
+<input [hidden]='hidden' type="text" [(ngModel)]="name">
+<input [hidden]='hidden' type="text" [(ngModel)]="surname">
+<button [hidden]='!hidden' (click)="edit()">Edit</button>
+<button [hidden]='hidden' (click)="save()">Save</button>
+</div>
+
+
+
